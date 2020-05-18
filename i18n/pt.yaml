@@ -1,0 +1,38 @@
+powered:
+  other: "Feito com Hugo"
+
+theme:
+  other: "Tema"
+
+readMore:
+  other: "Leia mais"
+
+toNewPosts:
+  other: "novos mais posts"
+
+toOldPosts:
+  other: "posts mais antigos"
+
+tag:
+  other: "tag"
+
+Tags:
+  other: "Tags"
+
+Posts:
+  other: "Posts"
+
+category:
+  other: "categoria"
+
+Categories:
+  other: "Categorias"
+
+toAllTags:
+  other: "todas as tags"
+
+toAllCategories:
+  other: "todas as categorias"
+
+skipToContent:
+  other: "pular para página principal"
