@@ -36,3 +36,12 @@ toAllCategories:
 
 skipToContent:
   other: "skip to main content"
+
+menu.archive:
+  other: "Archive"
+
+menu.about:
+  other: "About"
+
+menu.tags:
+  other: "Tags"

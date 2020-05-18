@@ -36,3 +36,12 @@ toAllCategories:
 
 skipToContent:
   other: "pular para página principal"
+
+menu.archive:
+  other: "Arquivo"
+
+menu.about:
+  other: "Sobre Mim"
+
+menu.tags:
+  other: "Tags"
