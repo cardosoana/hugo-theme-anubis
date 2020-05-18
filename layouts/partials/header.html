@@ -4,7 +4,7 @@
 <nav>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ i18n .Identifier . }}</a>
+    <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="/{{ $currentPage.Language }}/{{ .URL }}" title="{{ .Title }}">{{ i18n .Identifier . }}</a>
     {{ end }}
     <label>/</label>
     {{ range $.Site.Home.AllTranslations }}
