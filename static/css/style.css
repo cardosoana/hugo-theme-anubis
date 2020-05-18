@@ -189,7 +189,17 @@ header nav {
 }
 
 header nav a {
-    margin-left: 2em;
+    margin-left: 1.5em;
+}
+
+header nav a.language {
+  color: #BFD8A9;
+  font-size: 14px;
+  margin-left: 0.5em;
+}
+
+header nav label {
+  margin-left: 1.5em;
 }
 
 header a {
