@@ -45,15 +45,15 @@ main {
 
 /* Headers */
 h1 {
-    font-size: 1.35em;
-}
+    font-size: 1.4em;
+  }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 /* Links */
@@ -169,20 +169,20 @@ header {
 }
 
 header h1 {
-    font-size: 1em;
+    font-size: 1.1em;
     margin-top: 1em;
     margin-bottom: 0;
     font-weight: normal;
 }
 
 header h2 {
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0;
     font-weight: normal;
 }
 
 header nav {
-    margin-top: 1em;
+    margin-top: 1.1em;
     max-width: 100%;
     text-align: right;
     margin-bottom: 1em;
@@ -232,10 +232,13 @@ article:not(:last-of-type) {
 }
 
 article header h1 {
-    font-size: 1.35em;
+    font-size: 1.4em;
     line-height: 1.1em;
     margin-bottom: 0.5em;
     font-weight: 600;
+    padding: 10px;
+    border-left: solid 4px #BFD8A9;
+    background-color: #f5f5f5;
 }
 
 article header h1 a {
