@@ -121,6 +121,7 @@ th, td {
 
 /* Code */
 pre {
+    margin: 1.2em auto 1.2em;
     padding: 1em;
     background-color: #f1f1f1;
     max-width: 100%;
@@ -300,10 +301,13 @@ article header h1 a {
 }
 
 article img {
+    width: 100%;
     max-width: 100%;
     display: block;
     height: auto;
-    margin: 0 auto .5em;
+    margin-top: 1em;
+    margin-top: 1em;
+    margin: 1.2em auto 1.2em; */
 }
 
 .read-more {
