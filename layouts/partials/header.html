@@ -6,8 +6,8 @@
     {{ range .Site.Menus.main }}
     <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="/{{ $currentPage.Language }}/{{ .URL }}" title="{{ .Title }}">{{ i18n .Identifier . }}</a>
     {{ end }}
-    <label>/</label>
+    <!-- <label>/</label>
     {{ range $.Site.Home.AllTranslations }}
     <a class="language" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-    {{ end }}
+    {{ end }} -->
 </nav>
